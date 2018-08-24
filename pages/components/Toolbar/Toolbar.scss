@@ -1,4 +1,4 @@
-.toolbar {
+.navigation {
 
     position: fixed;
     top:0;
@@ -7,31 +7,31 @@
     background-color:#bef3ff;
     height:56px;
 
-    &__navigation{
+    &__nav{
         display: flex;
         height:100%;
         align-items: center;
         padding:0 1rem
     }
 
-    &__navigation-items ul{
+    &__nav-items ul{
         list-style: none;
         margin:0;
         padding:0;
         display: flex;
     }
 
-    &__navigation-items li{
+    &__nav-items li{
         padding:0 0.5rem
     }
 
-    &__navigation-items a{
+    &__nav-items a{
         color:black;
         text-decoration: none;
     }
 
 
-    &__navigation-items a:hover, &__navigation-items a:active{
+    &__nav-items a:hover, &__nav-items a:active{
         color:#fa923f;
     }
     &__logo{
@@ -46,7 +46,7 @@
 
 
 @media (max-width: 768px){
-    .toolbar__navigation-items{
+    .navigation__nav-items{
         display: none;
     }
 

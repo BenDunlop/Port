@@ -15,18 +15,18 @@ import './Toolbar.scss'
 
 
 const toolbar = (props) => (
-    <header className="toolbar">
-        <nav className="toolbar__navigation">
-            <div className="toolbar__toggle-button">
+    <header className="navigation">
+        <nav className="navigation__nav">
+            <div className="navigation__nav-button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className="toolbar__logo">
+            <div className="navigation__logo">
                 <Link href="/">
                     <a>The LOGO</a>
                 </Link>
             </div>
             <div className="u-spacer" />
-            <div className="toolbar__navigation-items">
+            <div className="navigation__nav-items">
                 <Links />
             </div>
         </nav>
