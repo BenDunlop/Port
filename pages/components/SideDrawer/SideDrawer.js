@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+import LinksNav from '../Links/Links'
 
 import './SideDrawer.scss'
 
@@ -13,18 +13,7 @@ const SideDrawer = (props) => {
 
     return(
         <nav className={drawerClasses}>
-            <ul>
-                <li>
-                    <Link href="/products">
-                        <a>Products</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/users">
-                        <a>Users</a>
-                    </Link>
-                </li>
-            </ul>
+            <LinksNav />
         </nav>
     )
 }
