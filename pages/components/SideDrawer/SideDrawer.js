@@ -1,5 +1,8 @@
 import React from 'react'
-import LinksNav from '../Links/Links'
+
+// LINKS FOR THE HEADER
+import Links from '../Links/Links'
+
 
 import './SideDrawer.scss'
 
@@ -13,7 +16,7 @@ const SideDrawer = (props) => {
 
     return(
         <nav className={drawerClasses}>
-            <LinksNav />
+            <Links />
         </nav>
     )
 }

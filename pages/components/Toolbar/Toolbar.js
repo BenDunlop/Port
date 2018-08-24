@@ -1,6 +1,9 @@
 import React from 'react';
 import Link from 'next/link'
-import LinksNav from '../Links/Links'
+
+
+// LINKS FOR THE HEADER
+import Links from '../Links/Links'
 
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 
@@ -24,7 +27,7 @@ const toolbar = (props) => (
             </div>
             <div className="u-spacer" />
             <div className="toolbar__navigation-items">
-                <LinksNav />
+                <Links />
             </div>
         </nav>
     </header>
